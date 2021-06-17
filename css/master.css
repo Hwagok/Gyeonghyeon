@@ -1,0 +1,178 @@
+*{margin: 0;}
+html{background-color: #1d1d1d;}
+header{background-color: #111111; width: 100%; height: 80px;}
+header > nav{margin: 0 auto; width: 1920px; height: 80px; display: flex; align-items: center;}
+header > nav > .menu{margin: 0 auto; width: 1280px; height: 80px;}
+header > nav > .menu > .logo{float: left; height: 80px; display: flex; justify-content: center; align-items: center;}
+header > nav > .menu > .menu_1{width: 1020px; margin: 0 auto;}
+header > nav > .menu > .menu_1 > .menu_2{margin: 0 auto;}
+header > nav > .menu > .menu_1 > .menu_2 > ul{display: grid;grid-template-columns: 1fr 1fr 1fr 1fr 1fr;height: 80px;}
+header > nav > .menu > .menu_1 > .menu_2 > ul > li{list-style: none; display: flex; justify-content: center; align-items: center; text-align: center;}
+header > nav > .menu > .menu_1 > .menu_2 > ul > li > a{color: #ffffff; font-family: 'Noto Sans KR', sans-serif; font-size: 18px; font-weight: 400; text-decoration: none; letter-spacing: -0.4px;}
+
+
+/*인덱스*/
+#index_video_01{left: 0; top: 0; min-width: 100%; min-height: 100%;}
+section > .index_video{position: absolute; width: 100%; height: 800px; overflow: hidden;}
+section > .index_video > .index_video_wrap{width: 100%; height: 800px; align-items: center;}
+section > .hole{width: 1200px; height: 800px; margin: 0 auto;}
+
+section{overflow: inherit;}
+section > .bg34{width: 1920px; height: 650px; margin: auto;}
+section > .bg34 > .bg3{background-image: url('../img/index/index_03.png'); display: flex; float: left;}
+section > .bg34 > .bg3 > .index_bg3_wrap{width: 960px; height: 650px; position: relative;}
+section > .bg34 > .bg3 > .index_bg3_wrap > .index_bg3_typo{text-align: center; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
+section > .bg34 > .bg3 > .index_bg3_wrap > .index_bg3_typo > .index_bg3_typo_tit{position: relative; padding: 2px 20px 2px 25px;}
+section > .bg34 > .bg3 > .index_bg3_wrap > .index_bg3_typo > .index_bg3_typo_tit > a{color: #ffffff; font-family: 'Noto Sans KR', sans-serif; font-size: 70px; font-weight: 300; text-decoration: none; letter-spacing: -0.4px;
+color:#ffffff; text-decoration:none; text-transform:uppercase;}
+section > .bg34 > .bg3 > .index_bg3_wrap > .index_bg3_typo > .index_bg3_typo_tit:before{content:''; position:absolute; bottom:0; left:0; width:100%; height:2px; background:#C63682; transform-style:linear; transition-property:height,width; transition-delay:0.3s,0.5s; transition-duration:0.3s;}
+section > .bg34 > .bg3 > .index_bg3_wrap > .index_bg3_typo > .index_bg3_typo_tit:hover:before{transition-property:width,height; width:15px; height:100%;}
+section > .bg34 > .bg3 > .index_bg3_wrap > .index_bg3_typo > .index_bg3_typo_tit:after{content:''; position:absolute; top:0; right:0; width:100%; height:100%; background:#382636; opacity: 50%; transform:scaleX(0); transition:0.3s; transition-delay:0s; transform-origin:left; z-index:-1;}
+section > .bg34 > .bg3 > .index_bg3_wrap > .index_bg3_typo > .index_bg3_typo_tit:hover:after{transform:scaleX(1); transition-delay:0.75s;}
+section > .bg34 > .bg3 > .index_bg3_wrap > .index_bg3_typo > .index_bg3_typo_sub > a{color: #ffffff; font-family: 'Noto Sans KR', sans-serif; font-size: 30px; font-weight: 300; text-decoration: none; letter-spacing: -0.4px;}
+
+section > .bg34 > .bg4{background-image: url('../img/index/index_04.png'); display: flex; float: right;}
+section > .bg34 > .bg4 > .index_bg4_wrap{width: 960px; height: 650px; position: relative;}
+section > .bg34 > .bg4 > .index_bg4_wrap > .index_bg4_typo{text-align: center; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
+section > .bg34 > .bg4 > .index_bg4_wrap > .index_bg4_typo > .index_bg4_typo_tit{position: relative; padding: 2px 20px 2px 25px;}
+section > .bg34 > .bg4 > .index_bg4_wrap > .index_bg4_typo > .index_bg4_typo_tit > a{color: #ffffff; font-family: 'Noto Sans KR', sans-serif; font-size: 70px; font-weight: 300; text-decoration: none; letter-spacing: -0.4px;
+color:#ffffff; text-decoration:none; text-transform:uppercase;}
+section > .bg34 > .bg4 > .index_bg4_wrap > .index_bg4_typo > .index_bg4_typo_tit:before{content:''; position:absolute; bottom:0; left:0; width:100%; height:2px; background:#C63682; transform-style:linear; transition-property:height,width; transition-delay:0.3s,0.5s; transition-duration:0.3s;}
+section > .bg34 > .bg4 > .index_bg4_wrap > .index_bg4_typo > .index_bg4_typo_tit:hover:before{transition-property:width,height; width:15px; height:100%;}
+section > .bg34 > .bg4 > .index_bg4_wrap > .index_bg4_typo > .index_bg4_typo_tit:after{content:''; position:absolute; top:0; right:0; width:100%; height:100%; background:#382636; opacity: 50%; transform:scaleX(0); transition:0.3s; transition-delay:0s; transform-origin:left; z-index:-1;}
+section > .bg34 > .bg4 > .index_bg4_wrap > .index_bg4_typo > .index_bg4_typo_tit:hover:after{transform:scaleX(1); transition-delay:0.75s;}
+section > .bg34 > .bg4 > .index_bg4_wrap > .index_bg4_typo > .index_bg4_typo_sub > a{color: #ffffff; font-family: 'Noto Sans KR', sans-serif; font-size: 30px; font-weight: 300; text-decoration: none; letter-spacing: -0.4px;}
+
+section > .bg56{width: 1920px; height: 650px; margin: auto;}
+section > .bg56 > .bg5{background-image: url('../img/index/index_05.png'); display: flex; float: left;}
+section > .bg56 > .bg5 > .index_bg5_wrap{width: 960px; height: 650px; position: relative;}
+section > .bg56 > .bg5 > .index_bg5_wrap > .index_bg5_typo{text-align: center; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
+section > .bg56 > .bg5 > .index_bg5_wrap > .index_bg5_typo > .index_bg5_typo_tit{position: relative; padding: 2px 20px 2px 25px;}
+section > .bg56 > .bg5 > .index_bg5_wrap > .index_bg5_typo > .index_bg5_typo_tit > a{color: #ffffff; font-family: 'Noto Sans KR', sans-serif; font-size: 70px; font-weight: 300; text-decoration: none; letter-spacing: -0.4px;
+color:#ffffff; text-decoration:none; text-transform:uppercase;}
+section > .bg56 > .bg5 > .index_bg5_wrap > .index_bg5_typo > .index_bg5_typo_tit:before{content:''; position:absolute; bottom:0; left:0; width:100%; height:2px; background:#C63682; transform-style:linear; transition-property:height,width; transition-delay:0.3s,0.5s; transition-duration:0.3s;}
+section > .bg56 > .bg5 > .index_bg5_wrap > .index_bg5_typo > .index_bg5_typo_tit:hover:before{transition-property:width,height; width:15px; height:100%;}
+section > .bg56 > .bg5 > .index_bg5_wrap > .index_bg5_typo > .index_bg5_typo_tit:after{content:''; position:absolute; top:0; right:0; width:100%; height:100%; background:#382636; opacity: 50%; transform:scaleX(0); transition:0.3s; transition-delay:0s; transform-origin:left; z-index:-1;}
+section > .bg56 > .bg5 > .index_bg5_wrap > .index_bg5_typo > .index_bg5_typo_tit:hover:after{transform:scaleX(1); transition-delay:0.75s;}
+section > .bg56 > .bg5 > .index_bg5_wrap > .index_bg5_typo > .index_bg5_typo_sub > a{color: #ffffff; font-family: 'Noto Sans KR', sans-serif; font-size: 30px; font-weight: 300; text-decoration: none; letter-spacing: -0.4px;}
+
+section > .bg56 > .bg6{background-image: url('../img/index/index_06.png'); display: flex; float: right;}
+section > .bg56 > .bg6 > .index_bg6_wrap{width: 960px; height: 650px; position: relative;}
+section > .bg56 > .bg6 > .index_bg6_wrap > .index_bg6_typo{text-align: center; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
+section > .bg56 > .bg6 > .index_bg6_wrap > .index_bg6_typo > .index_bg6_typo_tit{position: relative; padding: 2px 20px 2px 25px;}
+section > .bg56 > .bg6 > .index_bg6_wrap > .index_bg6_typo > .index_bg6_typo_tit > a{color: #ffffff; font-family: 'Noto Sans KR', sans-serif; font-size: 70px; font-weight: 300; text-decoration: none; letter-spacing: -0.4px;
+color:#ffffff; text-decoration:none; text-transform:uppercase;}
+section > .bg56 > .bg6 > .index_bg6_wrap > .index_bg6_typo > .index_bg6_typo_tit:before{content:''; position:absolute; bottom:0; left:0; width:100%; height:2px; background:#C63682; transform-style:linear; transition-property:height,width; transition-delay:0.3s,0.5s; transition-duration:0.3s;}
+section > .bg56 > .bg6 > .index_bg6_wrap > .index_bg6_typo > .index_bg6_typo_tit:hover:before{transition-property:width,height; width:15px; height:100%;}
+section > .bg56 > .bg6 > .index_bg6_wrap > .index_bg6_typo > .index_bg6_typo_tit:after{content:''; position:absolute; top:0; right:0; width:100%; height:100%; background:#382636; opacity: 50%; transform:scaleX(0); transition:0.3s; transition-delay:0s; transform-origin:left; z-index:-1;}
+section > .bg56 > .bg6 > .index_bg6_wrap > .index_bg6_typo > .index_bg6_typo_tit:hover:after{transform:scaleX(1); transition-delay:0.75s;}
+section > .bg56 > .bg6 > .index_bg6_wrap > .index_bg6_typo > .index_bg6_typo_sub > a{color: #ffffff; font-family: 'Noto Sans KR', sans-serif; font-size: 30px; font-weight: 300; text-decoration: none; letter-spacing: -0.4px;}
+
+section > .bg7{height: 650px; background-image: url('../img/index/index_07.png'); background-size: cover; background-position: center;}
+section > .bg7 > .index_bg7_wrap{height: 650px; position: relative;}
+section > .bg7 > .index_bg7_wrap > .index_bg7_typo{text-align: center; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
+section > .bg7 > .index_bg7_wrap > .index_bg7_typo > .index_bg7_typo_tit > a{color: #ffffff; font-family: 'Noto Sans KR', sans-serif; font-size: 70px; font-weight: 300; text-decoration: none; letter-spacing: -0.4px;
+color:#ffffff; text-decoration:none; text-transform:uppercase;}
+section > .bg7 > .index_bg7_wrap > .index_bg7_typo > .index_bg7_typo_tit{position: relative; padding: 2px 20px 2px 25px;}
+section > .bg7 > .index_bg7_wrap > .index_bg7_typo > .index_bg7_typo_tit:before{content:''; position:absolute; bottom:0; left: 0; width:100%; height:2px; background:#C63682; transform-style:linear; transition-property:height,width; transition-delay:0.3s,0.5s; transition-duration:0.3s;}
+section > .bg7 > .index_bg7_wrap > .index_bg7_typo > .index_bg7_typo_tit:hover:before{transition-property:width,height; width:15px; height:100%;}
+section > .bg7 > .index_bg7_wrap > .index_bg7_typo > .index_bg7_typo_tit:after{content:''; position:absolute; top:0; right:0; width:100%; height:100%; background:#382636; opacity: 50%; transform:scaleX(0); transition:0.3s; transition-delay:0s; transform-origin:left; z-index:-1;}
+section > .bg7 > .index_bg7_wrap > .index_bg7_typo > .index_bg7_typo_tit:hover:after{transform:scaleX(1); transition-delay:0.75s;}
+section > .bg7 > .index_bg7_wrap > .index_bg7_typo > .index_bg7_typo_sub > a{color: #ffffff; font-family: 'Noto Sans KR', sans-serif; font-size: 30px; font-weight: 300; text-decoration: none; letter-spacing: -0.4px;}
+
+
+/*서브01*/
+section > .sub01_main{height: 700px; background-image: url('../img/sub01/sub01_1.png'); background-size: cover; background-position: center;}
+section > .sub01_main > .sub01_main_wrap{height: 700px; position: relative;}
+section > .sub01_main > .sub01_main_wrap > .sub01_main_box{width: 290px; height: 500px; background-color: #ffffff; opacity: 60%; margin-left: 450px;}
+section > .sub01_main > .sub01_main_wrap > .sub01_main_box > .sub01_main_typo{text-align: center; padding-top: 285px; letter-spacing: -0.4px;}
+section > .sub01_main > .sub01_main_wrap > .sub01_main_box > .sub01_main_typo > .sub01_main_typo_tit > a{color: #111111; font-family: 'Noto Sans KR', sans-serif; font-size: 50px; font-weight: 300; text-decoration: none; letter-spacing: -0.4px;}
+section > .sub01_main > .sub01_main_wrap > .sub01_main_box > .sub01_main_typo > .sub01_main_typo_sub > a{color: #111111; font-family: 'Noto Sans KR', sans-serif; font-size: 30px; font-weight: 300; text-decoration: none; letter-spacing: -0.4px;}
+
+section > .sub01_con{height: 1280px; background-image: url('../img/sub01/sub01_2.png'); background-size: cover; background-position: center;}
+section > .sub01_con > .sub01_con_wrap{text-align: center; height: 1280px; position: relative;}
+section > .sub01_con > .sub01_con_wrap > .sub01_con_typo{width: 658px; text-align: left; margin: 0 auto; padding-top: 446px; letter-spacing: -0.4px; line-height: 28px;}
+section > .sub01_con > .sub01_con_wrap > .sub01_con_typo > .sub01_con_typo_2{padding-top: 32px;}
+section > .sub01_con > .sub01_con_wrap > .sub01_con_typo > .sub01_con_typo_3{padding-top: 32px;}
+section > .sub01_con > .sub01_con_wrap > .sub01_con_typo > .sub01_con_typo_1 > a{color: #eeeeee; font-family: 'Noto Sans KR', sans-serif; font-size: 24px; font-weight: 300; text-decoration: none;}
+section > .sub01_con > .sub01_con_wrap > .sub01_con_typo > .sub01_con_typo_2 > a{color: #eeeeee; font-family: 'Noto Sans KR', sans-serif; font-size: 18px; font-weight: 300; text-decoration: none;}
+section > .sub01_con > .sub01_con_wrap > .sub01_con_typo > .sub01_con_typo_3 > a{color: #eeeeee; font-family: 'Noto Sans KR', sans-serif; font-size: 18px; font-weight: 300; text-decoration: none;}
+
+
+/*서브02*/
+section > .sub02_main{height: 700px; background-image: url('../img/sub02/sub02_1.png'); background-size: cover; background-position: center;}
+section > .sub02_main > .sub02_main_wrap{height: 700px; position: relative;}
+section > .sub02_main > .sub02_main_wrap > .sub02_main_box{width: 400px; height: 500px; background-color: #ffffff; opacity: 60%; margin-left: 1070px;}
+section > .sub02_main > .sub02_main_wrap > .sub02_main_box > .sub02_main_typo{text-align: right; padding-top: 285px; letter-spacing: -0.4px; padding-right: 46px;}
+section > .sub02_main > .sub02_main_wrap > .sub02_main_box > .sub02_main_typo > .sub02_main_typo_tit > a{color: #111111; font-family: 'Noto Sans KR', sans-serif; font-size: 50px; font-weight: 300; text-decoration: none; letter-spacing: -0.4px;}
+section > .sub02_main > .sub02_main_wrap > .sub02_main_box > .sub02_main_typo > .sub02_main_typo_sub > a{color: #111111; font-family: 'Noto Sans KR', sans-serif; font-size: 30px; font-weight: 300; text-decoration: none; letter-spacing: -0.4px;}
+
+section > .sub02_con1{height: 960px; background-image: url('../img/sub02/sub02_2.png'); background-size: cover; background-position: center; margin-top: 123px;}
+section > .sub02_con1 > .sub02_con1_wrap{text-align: center; height: 960px; position: relative;}
+section > .sub02_con1 > .sub02_con1_wrap > .sub02_con1_typo{text-align: left; margin: 0 auto; padding-top: 318px; padding-left: 390px; letter-spacing: -0.4px;}
+section > .sub02_con1 > .sub02_con1_wrap > .sub02_con1_typo > .sub02_con1_typo_1 > a{color: #eeeeee; font-family: 'Noto Sans KR', sans-serif; font-size: 40px; font-weight: 300; text-decoration: none;}
+section > .sub02_con1 > .sub02_con1_wrap > .sub02_con1_typo > .sub02_con1_typo_2 > a{color: #eeeeee; font-family: 'Noto Sans KR', sans-serif; font-size: 50px; font-weight: 300; text-decoration: none;}
+
+section > .sub02_con2{height: 960px; background-image: url('../img/sub02/sub02_3.png'); background-size: cover; background-position: center;}
+section > .sub02_con2 > .sub02_con2_wrap{text-align: center; height: 960px; position: relative;}
+section > .sub02_con2 > .sub02_con2_wrap > .sub02_con2_typo{text-align: left; margin: 0 auto; padding-top: 642px; padding-left: 600px; letter-spacing: -0.4px;}
+section > .sub02_con2 > .sub02_con2_wrap > .sub02_con2_typo > .sub02_con2_typo_1 > a{color: #eeeeee; font-family: 'Noto Sans KR', sans-serif; font-size: 40px; font-weight: 300; text-decoration: none;}
+section > .sub02_con2 > .sub02_con2_wrap > .sub02_con2_typo > .sub02_con2_typo_2 > a{color: #eeeeee; font-family: 'Noto Sans KR', sans-serif; font-size: 50px; font-weight: 300; text-decoration: none;}
+
+section > .sub02_con3{height: 960px; background-image: url('../img/sub02/sub02_4.png'); background-size: cover; background-position: center;}
+section > .sub02_con3 > .sub02_con3_wrap{text-align: center; height: 960px; position: relative;}
+section > .sub02_con3 > .sub02_con3_wrap > .sub02_con3_typo{text-align: left; margin: 0 auto; padding-top: 746px; padding-left: 320px; letter-spacing: -0.4px;}
+section > .sub02_con3 > .sub02_con3_wrap > .sub02_con3_typo > .sub02_con3_typo_1 > a{color: #eeeeee; font-family: 'Noto Sans KR', sans-serif; font-size: 40px; font-weight: 300; text-decoration: none;}
+section > .sub02_con3 > .sub02_con3_wrap > .sub02_con3_typo > .sub02_con3_typo_2 > a{color: #eeeeee; font-family: 'Noto Sans KR', sans-serif; font-size: 50px; font-weight: 300; text-decoration: none;}
+
+
+/*서브03*/
+section > .sub03_main{height: 700px; background-image: url('../img/sub03/sub03_1.png'); background-size: cover; background-position: center;}
+section > .sub03_main > .sub03_main_wrap{height: 700px; position: relative;}
+section > .sub03_main > .sub03_main_wrap > .sub03_main_box{width: 400px; height: 500px; background-color: #ffffff; opacity: 60%; margin-left: 1070px;}
+section > .sub03_main > .sub03_main_wrap > .sub03_main_box > .sub03_main_typo{text-align: right; padding-top: 285px; letter-spacing: -0.4px; padding-right: 33px;}
+section > .sub03_main > .sub03_main_wrap > .sub03_main_box > .sub03_main_typo > .sub03_main_typo_tit > a{color: #111111; font-family: 'Noto Sans KR', sans-serif; font-size: 50px; font-weight: 300; text-decoration: none; letter-spacing: -0.4px;}
+section > .sub03_main > .sub03_main_wrap > .sub03_main_box > .sub03_main_typo > .sub03_main_typo_sub > a{color: #111111; font-family: 'Noto Sans KR', sans-serif; font-size: 30px; font-weight: 300; text-decoration: none; letter-spacing: -0.4px;}
+
+section > .sub03_con{height: 2050px; background-image: url('../img/sub03/sub03_2.png'); background-size: cover; background-position: center;}
+section > .sub03_con > .sub03_con_wrap{margin: 0 auto; height: 2050px; position: relative;}
+section > .sub03_con > .sub03_con_wrap > .sub03_con_typo1{width: 980px; text-align: right; padding-top: 336px; padding-left: 380px; letter-spacing: -0.4px;}
+section > .sub03_con > .sub03_con_wrap > .sub03_con_typo1 > .sub03_con_typo1_2{padding-top: 22px;}
+section > .sub03_con > .sub03_con_wrap > .sub03_con_typo1 > .sub03_con_typo1_3{padding-top: 30px;}
+section > .sub03_con > .sub03_con_wrap > .sub03_con_typo1 > .sub03_con_typo1_1 > a{color: #ffffff; font-family: 'Noto Sans KR', sans-serif; font-size: 100px; font-weight: 300; text-decoration: none;}
+section > .sub03_con > .sub03_con_wrap > .sub03_con_typo1 > .sub03_con_typo1_2 > a{color: #ffffff; font-family: 'Noto Sans KR', sans-serif; font-size: 24px; font-weight: 300; text-decoration: none;}
+section > .sub03_con > .sub03_con_wrap > .sub03_con_typo1 > .sub03_con_typo1_3 > a{color: #ffffff; font-family: 'Noto Sans KR', sans-serif; font-size: 18px; font-weight: 300; text-decoration: none;}
+
+section > .sub03_con > .sub03_con_wrap > .sub03_con_typo2{width: 740px; text-align: left; padding-top: 480px; padding-left: 650px; letter-spacing: -0.4px;}
+section > .sub03_con > .sub03_con_wrap > .sub03_con_typo2 > .sub03_con_typo2_2{padding-top: 22px;}
+section > .sub03_con > .sub03_con_wrap > .sub03_con_typo2 > .sub03_con_typo2_3{padding-top: 30px;}
+section > .sub03_con > .sub03_con_wrap > .sub03_con_typo2 > .sub03_con_typo2_1 > a{color: #ffffff; font-family: 'Noto Sans KR', sans-serif; font-size: 100px; font-weight: 300; text-decoration: none;}
+section > .sub03_con > .sub03_con_wrap > .sub03_con_typo2 > .sub03_con_typo2_2 > a{color: #ffffff; font-family: 'Noto Sans KR', sans-serif; font-size: 24px; font-weight: 300; text-decoration: none;}
+section > .sub03_con > .sub03_con_wrap > .sub03_con_typo2 > .sub03_con_typo2_3 > a{color: #ffffff; font-family: 'Noto Sans KR', sans-serif; font-size: 18px; font-weight: 300; text-decoration: none;}
+
+/*서브04*/
+section > .sub04_main{height: 700px; background-image: url('../img/sub04/sub04_1.png'); background-size: cover; background-position: center;}
+section > .sub04_main > .sub04_main_wrap{height: 700px; position: relative;}
+section > .sub04_main > .sub04_main_wrap > .sub04_main_box{width: 400px; height: 500px; background-color: #ffffff; opacity: 60%; margin-left: 450px;}
+section > .sub04_main > .sub04_main_wrap > .sub04_main_box > .sub04_main_typo{text-align: left; padding-top: 285px; letter-spacing: -0.4px; padding-left: 33px;}
+section > .sub04_main > .sub04_main_wrap > .sub04_main_box > .sub04_main_typo > .sub04_main_typo_tit > a{color: #111111; font-family: 'Noto Sans KR', sans-serif; font-size: 50px; font-weight: 300; text-decoration: none; letter-spacing: -0.4px;}
+section > .sub04_main > .sub04_main_wrap > .sub04_main_box > .sub04_main_typo > .sub04_main_typo_sub > a{color: #111111; font-family: 'Noto Sans KR', sans-serif; font-size: 30px; font-weight: 300; text-decoration: none; letter-spacing: -0.4px;}
+
+section > .sub04_con{height: 1964px; background-image: url('../img/sub04/sub04_10.png'); background-size: cover; background-position: center; background-color: #1D1D1D;}
+
+/*서브05*/
+section > .sub05_main{height: 700px; background-image: url('../img/sub05/sub05_1.png'); background-size: cover; background-position: center;}
+section > .sub05_main > .sub05_main_wrap{height: 700px; position: relative;}
+section > .sub05_main > .sub05_main_wrap > .sub05_main_box{width: 290px; height: 500px; background-color: #ffffff; opacity: 60%; margin-left: 450px;}
+section > .sub05_main > .sub05_main_wrap > .sub05_main_box > .sub05_main_typo{text-align: left; padding-top: 254px; letter-spacing: -0.4px; padding-left: 28px;}
+section > .sub05_main > .sub05_main_wrap > .sub05_main_box > .sub05_main_typo > .sub05_main_typo_tit > a{color: #111111; font-family: 'Noto Sans KR', sans-serif; font-size: 50px; font-weight: 300; text-decoration: none; letter-spacing: -0.4px; line-height: 60px;}
+section > .sub05_main > .sub05_main_wrap > .sub05_main_box > .sub05_main_typo > .sub05_main_typo_sub > a{color: #111111; font-family: 'Noto Sans KR', sans-serif; font-size: 30px; font-weight: 300; text-decoration: none; letter-spacing: -0.4px;}
+
+section > .sub05_con{height: 2214px; background-image: url('../img/sub05/sub05_3.png'); background-size: cover; background-position: center; background-color: #1D1D1D;}
+
+
+/*푸터*/
+footer{height: 80px;width: 100%;background-color: #111111;display: flex;justify-content: center;align-items: center;}
+.footerwrap{border: 0px solid blue;width: 1280px; height: 80px;display: flex;justify-content: space-between;align-items: center;}
+.footerleft{display: inline-block;}
+.footerright{padding-right: 132px; display: inline-block;font-family: 'Noto Sans KR', sans-serif;font-weight: 300;letter-spacing: -0.4px;color: #707070;font-size: 14px;}
